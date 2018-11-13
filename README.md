@@ -19,3 +19,6 @@
 - Clear the terminal screen
   - cmd + K
   - ctrl + L
+
+- View Trash directory in terminal
+  - cd ~/.Trash 
