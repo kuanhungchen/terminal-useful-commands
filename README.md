@@ -1,4 +1,4 @@
-# terminal_useful_command
+# terminal useful command
 
 - Login to server by using SSH  
   - ssh <username>@<server_ip>
@@ -21,4 +21,18 @@
   - ctrl + L
 
 - View Trash directory in terminal
-  - cd ~/.Trash 
+  - cd ~/.Trash
+
+## git related
+
+- Add branch
+  - git branch <branch_name>
+
+- Switch branch
+  - git checkout <branch_name>
+
+- Add a new remote
+  - git remote add origin <URL>
+
+- Change URL of an existing remote repo
+  - git set-url --add origin <URL>
