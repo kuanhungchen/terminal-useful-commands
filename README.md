@@ -23,6 +23,9 @@
 - View Trash directory in terminal
   - cd ~/.Trash
 
+- Delete all files in this directory
+  - rm -f ./*
+
 ## git related
 
 - Add branch
