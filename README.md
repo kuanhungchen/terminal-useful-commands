@@ -1,4 +1,5 @@
-# terminal useful command
+# Terminal Useful Commands
+## A list of terminal commands, git commands, and anything useful that I usually use.
 
 - Login to server by using SSH  
   ```$ ssh <username>@<server_ip>```
