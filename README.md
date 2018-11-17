@@ -26,6 +26,12 @@
 - Delete all files in this directory
   - rm -f ./*
 
+- Make (hard) link (can overwrite but won't show linking location in _ls -al_)
+  - ln <source_file> <target_file>
+
+- Make symbolic link (can't overwrite but will show linking location in _ls -al_)
+  - ln -s <source_file> <target_file>
+
 ## git related
 
 - Add branch
