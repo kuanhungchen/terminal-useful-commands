@@ -53,4 +53,41 @@
   3. ```$ git remote (will see a remote name)```  
   4. ```$ git remote rm <remote_name>```  
   5. ```$ git remote add <new_remote_name> <new_url>```  
-  6. ```$ git branch --set-upstream-to=<new_remote_name>/<branch_name>```  
+  6. ```$ git branch --set-upstream-to=<new_remote_name>/<branch_name>``` 
+  
+  ## conda related
+  
+- Install package  
+  ```$ conda install <package_name>```
+
+- Remove package  
+  ```$ conda remove <package_name>```
+
+- Install specific verion of Python  
+  ```$ conda install python=<python_version>```
+
+- Create an environment with a specific version of Python  
+  ```$ conda create -n <environment_name> python=<python_version>```
+
+- Create an environment with a specific version of a package  
+  ```$ conda create -n <environment_name> <package_name>=<package_version>```  
+  ```$ conda install -n <environment_name> <package_name>=<package_version>```
+  
+- Create an environment with a specific package  
+  ```$ conda create -n <environment_name> <package_name>```  
+  ```$ conda install -n <environment_name> <package_name>``` (environment has already existed)
+  
+- Activate an environment 
+  ```$ source activate <environment_name>```
+
+- Deacticate an environment  
+  ```$ source deactivate```
+
+- Check pachages in environment  
+  ```$ conda list```
+
+- Check all environments  
+  ```$ conda env list```
+
+- Remove an environment  
+  ```$ conda env remove -n <environment_name>```
