@@ -1,5 +1,5 @@
-# Terminal Useful Commands
-### A list of terminal commands, git commands, and anything useful that I usually use.
+# Terminal Useful Commands #
+### A list of terminal commands, git commands, and anything useful that I usually use. ###
 
 - Login to server by using SSH  
   ```$ ssh <username>@<server_ip>```
@@ -33,7 +33,7 @@
 - Make symbolic link (can't overwrite but will show linking location in ```ls -al```)  
   ```$ ln -s <source_file> <target_file>```
 
-## git related
+## git related ##
 
 - Add branch  
   ```$ git branch <branch_name>```
@@ -54,9 +54,9 @@
   4. ```$ git remote rm <remote_name>```  
   5. ```$ git remote add <new_remote_name> <new_url>```  
   6. ```$ git branch --set-upstream-to=<new_remote_name>/<branch_name>``` 
-  
-  ## conda related
-  
+
+## conda related ##
+
 - Install package  
   ```$ conda install <package_name>```
 
