@@ -37,6 +37,18 @@
   ```$ wget <url>```  
   ```$ wget -b <url>``` (download in the background)
 
+- Create/Untar tar archive file  
+  ```$ tar cvf <filename>.tar <dir_name>```  
+  ```$ tar xvf <filename>.tar```
+
+- Create/Uncompress gz archive file  
+  ```$ gzip <filename>```  
+  ```$ gunzip <filename>.gz```
+
+- Create/Uncompress tar.gz archive file  
+  ```$ tar cvzf <filename>.tar.gz <dir_name>```  
+  ```$ tar xvf <filename>.tar.gz```
+
 ## git related ##
 
 - Add branch  
