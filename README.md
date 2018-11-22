@@ -33,6 +33,10 @@
 - Make symbolic link (can't overwrite but will show linking location in ```ls -al```)  
   ```$ ln -s <source_file> <target_file>```
 
+- Download files  
+  ```$ wget <url>```  
+  ```$ wget -b <url>``` (download in the background)
+
 ## git related ##
 
 - Add branch  
