@@ -21,6 +21,9 @@
   ```cmd + K```  
   ```ctrl + L```  
 
+- Clear everything backwards to beginning of line  
+  ```ctrl + U```
+
 - View Trash directory in terminal  
   ```$ cd ~/.Trash```
 
