@@ -52,6 +52,11 @@
   ```$ tar cvzf <filename>.tar.gz <dir_name>```  
   ```$ tar xvf <filename>.tar.gz```
 
+- Print last 10 lines of file(s)  
+  ```$ tail <filename>```  
+  ```$ tail -n <N> <filename>``` (print last N lines of file)  
+  ```$ tail -f <filename>``` (keep checking and printing new data)
+
 ## git related ##
 
 - Add branch  
