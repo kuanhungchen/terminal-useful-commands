@@ -10,7 +10,7 @@
 - (secure) copy files from server to local  
   ```$ scp -P <port_number> <username>@<server_ip>:<file_dir> <local_dir>```
   
-- (secure) copy files from local to server
+- (secure) copy files from local to server  
   ```$ scp -P <port_number> <file_dir> <username>@<server_ip>:<server_dir>```
 
 - Monitor (NVIDIA) GPU status  
