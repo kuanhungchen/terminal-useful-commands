@@ -83,7 +83,22 @@
   3. ```$ git remote (will see a remote name)```  
   4. ```$ git remote rm <remote_name>```  
   5. ```$ git remote add <new_remote_name> <new_url>```  
-  6. ```$ git branch --set-upstream-to=<new_remote_name>/<branch_name>``` 
+  6. ```$ git branch --set-upstream-to=<new_remote_name>/<branch_name>```
+
+- Show the commit logs  
+	```$ git log``` (add ```--oneline``` for one-line format)
+
+- Show the changes between Working and Staging  
+	```$ git diff```
+
+- Show the changes between Staging and Repo  
+	```$ git diff --cached```
+
+- Show the changes between two commits  
+	```$ git diff <commit1> <commit2>```
+
+- Show the changes between Working and Repo  
+	```$ git diff HEAD```
 
 ## conda related ##
 
