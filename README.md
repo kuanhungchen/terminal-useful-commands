@@ -13,6 +13,12 @@
 - (secure) copy files from local to server  
   ```$ scp -P <port_number> <file_dir> <username>@<server_ip>:<server_dir>```
 
+- Login to server by using sftp  
+  ```$ sftp <username>@<server_ip>```
+  
+- Download from server by using sftp  
+  ```$ get <file_name>```
+
 - Monitor (NVIDIA) GPU status  
   ```$ nvidia-smi```  
   ```$ nvidia-smi -L```  
