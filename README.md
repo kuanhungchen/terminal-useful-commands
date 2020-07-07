@@ -69,6 +69,17 @@
 - Find number of files under a folder  
   ```$ find . -type f | wc -l```
 
+- Search keyword by regular expression  
+  ```$ grep <keyword> <file1> <file2> ...```  
+  ```$ ls <directory> | grep <keyword>```  
+  ```$ grep -i <keyword> <file>``` (case not sensitive)  
+  ```$ grep -n <keyword> <file>``` (indicate line number)  
+  ```$ grep -v <keyword> <file>``` (inverse search)  
+  ```$ grep -r <keyword> <file>``` (recursive search)  
+  ```$ grep -A <N> <keyword> <file>``` (show extra N lines after keyword)  
+  ```$ grep -B <N> <keyword> <file>``` (show extra N lines before keyword)  
+  ```$ grep -C <N> <keyword> <file>``` (show extra N lines before and after keyword)  
+
 ## git related ##
 
 - Add branch  
