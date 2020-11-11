@@ -80,6 +80,9 @@
   ```$ grep -B <N> <keyword> <file>``` (show extra N lines before keyword)  
   ```$ grep -C <N> <keyword> <file>``` (show extra N lines before and after keyword)  
 
+- Edit file on remote by scp using (m)vim  
+  ```$ (m)vim scp://username@hostname:port/path/to/file```
+
 ## git related ##
 
 - Add branch  
