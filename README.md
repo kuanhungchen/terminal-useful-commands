@@ -120,6 +120,10 @@
 - Show the changes between Working and Repo  
 	```$ git diff HEAD```
 
+- For the remote tracking branches which are deleted, aka the stale branches  
+	```$ git remote prune origin``` (remove those locally)  
+	```$ git remote prune origin --dry-run``` (just list them)
+
 ## conda related ##
 
 - Install package  
