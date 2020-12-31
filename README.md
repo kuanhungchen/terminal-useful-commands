@@ -83,6 +83,9 @@
 - Edit file on remote by scp using (m)vim  
   ```$ (m)vim scp://username@hostname:port/path/to/file```
 
+- Mount remote file system to local computer via SSH  
+  ```$ sshfs username@remote:/path/to/remote/directory /path/to/local/directory```
+
 ## git related ##
 
 - Add branch  
