@@ -86,6 +86,9 @@
 - Mount remote file system to local computer via SSH  
   ```$ sshfs username@remote:/path/to/remote/directory /path/to/local/directory```
 
+- Unmount remote file system  
+  ```$ diskutil unmount force /path/to/local/mount/point```
+
 ## git related ##
 
 - Add branch  
